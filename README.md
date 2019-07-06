@@ -118,7 +118,7 @@ text.write(text, [size = <size> ],[fontPath = <fontpath>],[maxLines = <n>])
 from papirus import PapirusTextPos
 
 # Same as calling "PapirusTextPos(True [,rotation = rot])"
-text = PapirusTextPos([rotation = rot])
+text = PapirusTextPos()
 
 # Write text to the screen at selected point, with an Id
 # "hello world" will appear on the screen at (10, 10), font size 20, straight away
@@ -146,7 +146,7 @@ text.Clear()
 from papirus import PapirusTextPos
 
 # Calling PapirusTextPos this way will mean nothing is written to the screen by default
-text = PapirusTextPos(False [,rotation = rot])
+text = PapirusTextPos(False)
 
 # Write text to the screen at selected point, with an Id
 # Nothing will show on the screen
