@@ -9,7 +9,7 @@ You can purchase one of the PaPiRus boards from [our webshop](https://www.pi-sup
 Just run the following script in a terminal window and PaPiRus will be automatically setup.
 ```bash
 # Run this line and PaPiRus will be setup and installed
-curl -sSL https://pisupp.ly/papiruscode | sudo bash
+curl -sSL https://raw.githubusercontent.com/JoshHobbs/PaPiRus/master/install | sudo bash
 ```
 
 ## Manual Installation
